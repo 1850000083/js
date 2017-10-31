@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body data-status="index">
+  <!--使用音频标签-->
+  <audio id="audio" src="sound/music.mp3"  autoplay preload  loop >您的浏览器不行啦！赶紧换换</audio>
+  <audio id="audiobiu" src="sound/biubiubiu.mp3"  preload  loop >您的浏览器不行啦！赶紧换换</audio>
+  <audio id="audioboom" src="sound/boom.mp3"  preload  loop = false >您的浏览器不行啦！赶紧换换</audio>
+  <audio id="audiobutton" src="sound/button.mp3"   preload  loop >您的浏览器不行啦！赶紧换换</audio>
+  <audio id="audiodie" src="sound/die.mp3"  preload  loop >您的浏览器不行啦！赶紧换换</audio>
+  <!--data-status="index"-->
+  <!--初始化canvas元素-->
+    <canvas id="game"></canvas>
+  <!--分数展示-->
+    <div class="grade">
+      <p>STAR:<span class="spanFz">0</span></p>
+    </div>
+  <!--游戏主页-->
+    <div class="ui-index">
+      <h1>飞机大作战</h1>
+      <div class="btn-group">
+        <button class="js-start btn">开始游戏</button>
+        <button class="js-setting btn">游戏设置</button>
+        <button class="js-rule btn">游戏说明</button>
+      </div>
+    </div>
+  <!--游戏说明-->
+    <div class="ui-rule ui-panel">
+      <h2>游戏说明</h2>
+      <p>通过手指移动飞机，通过手指移动飞机，通过手指移动飞机，通过手指移动飞机，通过手指移动飞机，</p>
+      <button class="js-confirm-rule">我知道了</button>
+    </div>
+  <!--游戏结束-->
+  <div class="ui-over ui-panel">
+    <h2>GAME OVER</h2>
+    <p>您本次游戏得分为<span class="score"></span>低于 <span class="scoreTop"></span>的玩家哦！请再接再厉!目的只是为了让你受酸体验了打不完飞机的感觉了嘛！哈啊哈哈哈哈啊哈哈哈哈啊哈哈哈！！！</p>
+    <button class="js-start">在玩一次</button>
+    <button class="js-confirm-rule">返回主页</button>
+  </div>
+  <!--游戏设置-->
+    <div class="ui-setting ui-panel">
+      <h2>游戏设置</h2>
+      <ul class="setting-group">
+        <li class="setting">
+          <span class="setting-title">音乐设置</span>
+          <select id="setting-music">
+            <option value="1">开启音乐</option>
+            <option value="0">关闭音乐</option>
+          </select>
+        </li>
+        <li class="setting">
+          <span class="setting-title">背景设置</span>
+          <select id="setting-bg">
+            <option value="1">看现代美女</option>
+            <option value="2">看清纯美女</option>
+            <option value="3">看古装美女</option>
+            <option value="4">看吸毒美女</option>
+          </select>
+        </li>
+        <li class="setting">
+          <span class="setting-title">战机设置</span>
+          <select id="setting-plane">
+            <option value="bluePlaneIcon">蓝色战机</option>
+            <option value="pinkPlaneIcon">粉红战机</option>
+          </select>
+        </li>
+      </ul>
+      <button class="js-confirm-setting">确认设置</button>
+    </div>
+    <!-- jquery -->
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+  <script src="js/config.js"></script>
+    <script src="js/resource.js"></script>
+    <script src="js/element.js"></script>
+    <script src="js/bullet.js"></script>
+    <script src="js/enemy.js"></script>
+    <script src="js/plane.js"></script>
+  <!--主js-->
+    <script src="js/app.js"></script>
+  </body>
+</html>
