@@ -1,0 +1,138 @@
+/*download私有屬性*/
+/*header nav{*/
+    /*width: 1000px;*/
+/*}*/
+/*.all-main .bg-one,.all-main .bg-one .bg-left,.all-main .bg-one .bg-right{*/
+    /*height: 850px;*/
+/*}*/
+.bg-center-text-div{
+    background-image: url("../img/mobile.png");
+}
+.all-main .bg-center-text .bg-center-text-shift-h2{
+    font-size: 18px;
+}
+.bg-center-text .bg-center-text-shift-p{
+    width: 1100px;
+    left: 179px;
+}
+
+.bg-center-text-shift-p a{
+    width: 300px;
+    text-decoration: none;
+    color: #3dc3fa;
+    background-color: #f8f8f8;
+    height: 67px;
+    /*line-height: 80px;*/
+    display: inline-block;
+   border-radius: 48px;
+    margin-left: 50px;
+    /*line-height: 80px;*/
+    margin-bottom: 20px;
+
+}
+.bg-center-text-shift-p a img{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 5px auto;
+
+}
+.bg-center-text-shift-p a span{
+    height: 20px;
+    color: #32CDFF;
+}
+
+
+
+
+.all-main .all-main-d-text-bg{
+    width: 100%;
+    height: 1900px;
+    background-color: #f8f8f8;
+    position: relative;
+
+}
+.all-main .all-main-d-text-bg>h1{
+    font-size: 40px;
+    font-weight: 500;
+    color: #586066;
+    height: 350px;
+    line-height: 600px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+.all-main-d-text-bg-list{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    color: #586066;
+    overflow: hidden;
+}
+.all-main-d-text-bg-list .all-main-d-text-bg-list-left{
+    width: 50%;
+    height: 500px;
+}
+.all-main-d-text-bg-list .all-main-d-text-bg-list-right{
+    width: 50%;
+    height: 500px;
+}
+.all-main-d-text-bg-list-right img{
+    width: 457px;
+    height: 324px;
+    position: relative;
+    top: 100px;
+}
+.all-main-d-text-bg-list-left>img:nth-of-type(1){
+    width: 80px;
+    height: 200px;
+    position: relative;
+    left: 250px;
+    top: 100px;
+}
+.all-main-d-text-bg-list-left>img:nth-of-type(2){
+    width: 30px;
+    height: 30px;
+    position: relative;
+    left: 230px;
+    top: 26px;
+}
+.all-main-d-text-bg-list-left>h3{
+    position: relative;
+    left: 316px;
+    top: 46px;
+    font-size: 22px;
+    font-weight: 400;
+}
+.all-main-d-text-bg-list-left>span{
+    position: relative;
+    left: 316px;
+    top: 66px;
+    font-size: 18px;
+    font-weight: 300;
+    width: 418px;
+}
+.all-main-d-text-bg-list-left>p{
+    position: relative;
+    left: 316px;
+    top: 86px;
+    font-size: 16px;
+    font-weight: 200;
+    width: 418px;
+}
+ .download-bg-list-tow-img img{
+     left: 239px
+}
+.all-main-d-text-bg-list .download-bg-list-tow img:nth-of-type(1){
+     width: 150px;
+    left: 0;
+ }
+.all-main-d-text-bg-list .download-bg-list-tow img:nth-of-type(2){
+    left: -70px;
+}
+.all-main-d-text-bg-list .download-bg-list-tow h3{
+    left: 81px;
+}
+.all-main-d-text-bg-list .download-bg-list-tow span{
+    left: 81px;
+}

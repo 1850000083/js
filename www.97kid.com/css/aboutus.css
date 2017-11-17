@@ -1,0 +1,70 @@
+/*aboutus私有属性*/
+.all-main .all-bg{
+    background-image: url("../img/course_concept_banner.jpg");
+
+}
+.all-main .all-bg-shade-text h1{
+    position: absolute;
+    left: -352px;
+    width: 500px;
+    top: -60px;
+    font-weight: 500;
+}
+.all-aboutusBg-text{
+    width: 100%;
+    height: 600px;
+    background-color: #f8f8f8;
+    position: relative;
+    top:100px;
+
+}
+.all-aboutusBg-text h1{
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+.all-aboutusBg-text p{
+    width: 80%;
+    height: 70px;
+    text-align: left;
+    line-height: 70px;
+    margin: 0 auto;
+    color: #586066;
+    font-size: 20px;
+}
+.all-main .bg-seven{
+    height: 800px;
+    /*margin-top: 50px;*/
+    position: relative;
+}
+.all-main .bg-seven .bg-seven-slideshow{
+    top: 200px;
+}
+.all-main .bg-seven  .bg-seven-trust-div{
+    text-align: center;
+    color: #586066;
+    position: relative;
+    top: 150px;
+}
+.all-main .bg-seven .bg-seven-slideshow-list span{
+    font-size: 20px;
+    position: static;
+    width: 260px;
+    height: 50px;
+    padding: 0 0 15px 0;
+    text-align: center;
+    display: inline-block;
+}
+.all-main .bg-seven .bg-seven-slideshow-list p{
+    height: auto;
+    color: #586066;
+    width: 260px;
+    left: 53px;
+    text-align: left;
+    margin: 0;
+    position: static;
+    margin-bottom: 20px;
+}

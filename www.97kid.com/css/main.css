@@ -1,0 +1,646 @@
+
+/*首页第一张背景图bg-left部分 bg-one start*/
+.bg-one{
+    width: 100%;
+    height: 820px;
+    position: relative;
+}
+
+.bg-left{
+    width: 1%;
+    height: 820px;
+    background-image: url("../img/bg_left.png");
+    transition: 500ms;
+}
+
+.bg-right{
+    width: 1%;
+    height: 820px;
+    background-image: url("../img/bg_right.png");
+    transition: 500ms;
+}
+
+/*首页第一张背景图bg-left部分 bg-one end*/
+/*bg-center-text start*/
+/*文字部分*/
+ .bg-center-text{
+    width: 100%;
+    text-align: center;
+     position: absolute;
+     color: white;
+     /*margin-top: 240px;*/
+     z-index: 10;
+     top: 240px;
+     /*opacity: 0;*/
+}
+.bg-center-text h1{
+    font-size: 80px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 490px;
+    /*top: 20px;*/
+    top: -360px;
+    transition: 500ms;
+    opacity: 0;
+}
+.bg-center-text h2{
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 40px;
+    position: absolute;
+    left: 584px;
+    /*top: 130px;*/
+    top: -360px;
+    transition: 800ms;
+    opacity: 0;
+}
+.bg-center-text p{
+    font-size: 20px;
+    font-weight:500;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 599px;
+    /*top: 260px;*/
+    top: -360px;
+    transition: 1000ms;
+    opacity: 0;
+}
+.bg-center-text p span{
+    color: #FFF966;
+}
+@media screen and (max-width: 1180px){
+    .bg-center-text{
+        width: 1180px;
+        text-align: center;
+    }
+}
+.bg-center-text-div{
+    width: 750px;
+    margin: 0 auto 20px auto;
+    border-radius: 5px;
+    min-width: 600px;
+    /*background-color: white;*/
+    height: 400px;
+    background-image: url("../img/family.png");
+    background-size: 100%;
+    background-repeat: round;
+    position: absolute;
+    left: 379px;
+    /*top: 310px;*/
+    top:620px ;
+    transition: 1000ms;
+    opacity: 0;
+}
+
+/*下部分*/
+.bg-center-text-div-img{
+    position: absolute;
+    left: 718px;
+    top: 452px;
+    width: 80px;
+    height: 80px;
+}
+/*bg-center-text end*/
+
+/*bg-tow部分 start*/
+.bg-tow{
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+}
+.bg-tow img{
+    width: 30px;
+    height: 30px;
+}
+.bg-tow div:first-child{
+    margin-left:250px;
+}
+.bg-tow-div{
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+    border-right: solid 1px #ccc;
+    text-align: center;
+    color: #282B31;
+}
+/*bg-tow部分 end*/
+/*bg-three部分 start*/
+.bg-three{
+    width: 100%;
+    height: 660px;
+}
+.bg-three-div{
+    display: block;
+    border: none;
+    width: 100%;
+    text-align: center;
+    /*margin: 100px auto 20px;*/
+}
+.bg-three-div img{
+    width: 50px;
+    height: 50px;
+}
+.bg-three-div p{
+    font-size: 35px;
+}
+.bg-three-left{
+    width: 30%;
+    height: 560px;
+    display: inline-block;
+    position: relative;
+    top: 200px;
+}
+.bg-three-left-div{
+    color: #FF6D4A;
+    font-size: 28px;
+    text-align: center;
+   margin-bottom: 50px;
+}
+.bg-three-left-div span{
+    font-size: 16px;
+    color: #282B31;
+    display: block;
+
+}
+.bg-three-right{
+    width: 69%;
+    height: 560px;
+    background-image: url("../img/teacher.png");
+    background-repeat: no-repeat;
+    background-size:100% ;
+    display: inline-block;
+    text-indent: -999px;
+    position: relative;
+    top: -256px;
+    
+}
+@media screen and (max-width: 1180px){
+    .bg-three{
+        width: 1180px;
+    }
+}
+/*bg-three部分 end*/
+/*bg-four部分 start*/
+.bg-four{
+   width: 100%;
+    height: 820px;
+}
+.bg-four-div{
+    text-align: center;
+    margin-top: 80px;
+}
+.bg-four-div img{
+    width: 50px;
+    height: 50px;
+}
+.bg-four-div h1{
+    font-size: 32px;
+    color: #282B31;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.bg-four-div p{
+    font-size: 20px;
+    color: #282B31;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.bg-four-bg{
+    width: 100%;
+    height: 540px;
+    background-image: url("../img/teaching.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.bg-four-ic{
+    width: 100%;
+    height: 100px;
+}
+.bg-four-ic-div{
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+    height: 60px;
+}
+.bg-four-ic-div img{
+    width: 30px;
+    height: 30px;
+    margin-top: 60px;
+}
+.bg-four-ic-div p{
+    color: #586066;
+    margin-top: 10px;
+}
+.bg-four-ic-div:nth-child(1){
+    margin-left: 260px;
+}
+/*bg-four部分 end*/
+/*bg-five部分 start*/
+ .all-main .bg-five{
+    width: 100%;
+    height: 1100px;
+    background-color: #fff;
+}
+.all-main .bg-five-top{
+    margin-top: 266px;
+    text-align: center;
+    height: 250px;
+}
+.bg-five .bg-five-top img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.bg-five .bg-five-top h1{
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.bg-five .bg-five-top p{
+    margin-bottom: 20px;
+    color: #586066;
+}
+.bg-five-list{
+    width: 80%;
+    margin: 0 auto;
+    height: 80px;
+}
+.bg-five-list ul{
+    height: 80px;
+    background-color: #f8f8f8;
+}
+.bg-five-list ul li{
+    margin-top: 20px;
+    float: left;
+    list-style: none;
+    width: 8.3%;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+    color: #586066;
+    line-height: 40px;
+    font-size: 16px;
+    transition: 1s;
+    cursor: pointer;
+
+}
+.bg-five-list ul li:nth-child(1){
+    /*background-color: #3dc3fa;*/
+}
+.bg-five-list ul li:hover{
+    background-color: #03b6ff;
+}
+
+.bg-five-table-active{
+    width: 100%;
+    height: 700px;
+    transition: 500ms;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+
+}
+@keyframes tableActive {
+    0%{
+        width: 0%;
+        height: 0;
+        left: 500px;
+        top: 300px;
+    }
+    25%{
+        width: 25%;
+        height: 200px;
+        left: 350px;
+        top: 250px;
+    }
+    50%{
+        width: 50%;
+        height: 400px;
+        left: 250px;
+        top: 150px;
+    }
+    75%{
+        width: 75%;
+        height: 600px;
+        left: 150px;
+        top: 50px;
+    }
+    100%{
+        width: 100%;
+        height: 700px;
+        left: 0;
+        top: 0;
+    }
+}
+.bg-five-table{
+    width: 100%;
+     height: 700px;
+    /*height: 100px;*/
+    text-align: center;
+    position: absolute;
+    /*left: 0;*/
+    /*top: 0;*/
+    /*transition: 1s;*/
+    /*overflow: hidden;*/
+}
+.bg-five-table table{
+    width: 80%;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto;
+    border-right: 1px solid #03b6ff;
+    border-bottom: 1px solid #03b6ff;
+    border-collapse:collapse;
+    color: #586066;
+    font-size: 20px;
+}
+
+.bg-five-table table tr td{
+    /*border: solid 1px #03b6ff;*/
+    border-collapse: separate;
+    border-left: 1px solid #03b6ff;
+    border-top: 1px solid #03b6ff;
+}
+.bg-five-table table tr td:first-child{
+    width: 30%;
+    height: 100px;
+}
+.bg-five-table table tr td:last-child{
+    width: 50%;
+    height: 100px;
+}
+.bg-five-table span{
+    display: block;
+    width: 650px;
+    text-align: left;
+    margin-left: 100px;
+    line-height: 30px;
+    color: #586066;
+    font-size: 18px;
+
+}
+/*bg-five部分 end*/
+/*bg-six部分 start*/
+.bg-six{
+    width: 80%;
+    height: 765px;
+    text-align: center;
+    margin: 0 auto;
+}
+.bg-six h2{
+    opacity:0;
+    transition: 1s;
+}
+.bg-six h1{
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 20px;
+    /*height: 200px;*/
+    /*line-height: 300px;*/
+    margin-top: 100px;
+}
+.bg-six p{
+   color: #586066;
+    margin-bottom: 20px;
+}
+.bg-six .bg-six-buy{
+    position: relative;
+}
+.bg-six .bg-six-buy .bg-six-buy-div{
+    display: inline-block;
+    background-color: #fff;
+    width: 25%;
+    height: 400px;
+    margin-right: 50px;
+    border: solid 1px #E7E8EA;
+    border-radius: 10px;
+    color: #586066;
+    padding: 20px;
+    position: absolute;
+}
+.bg-six .bg-six-buy .bg-six-buy-div:hover{
+    /*transition: 300ms;*/
+    animation: bg-six-buy-animation 800ms;
+}
+
+@keyframes bg-six-buy-animation {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.1);
+        color: white;
+        background-color: #3dc3fa;
+    }
+    100%{
+        transform: scale(1);
+        color: #586066;
+    }
+}
+.bg-six .bg-six-buy .bg-six-buy-div:nth-child(1){
+    left: 5%;
+}
+.bg-six .bg-six-buy .bg-six-buy-div:nth-child(2){
+    left: 37.5%;
+}
+.bg-six .bg-six-buy .bg-six-buy-div:nth-child(3){
+    left: 70%;
+}
+.bg-six .bg-six-buy .bg-six-buy-div strong{
+    font-size: 50px;
+}
+.bg-six .bg-six-buy .bg-six-buy-div strong:hover{
+    color: white;
+}
+.bg-six .bg-six-buy .bg-six-buy-div span{
+    display: block;
+    margin-top: 10px;
+}
+.bg-six-buy-div-span{
+    position: absolute;
+    top: 150px;
+    left: 95px;
+    z-index: 10;
+}
+
+.bg-six .bg-six-buy .bg-six-buy-div span:nth-last-child(1){
+    color:#586066;
+    border: solid 1px #03b6ff;
+    width: 150px;
+    height: 60px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 60px;
+    margin: 0 auto;
+    margin-top: 200px;
+    cursor: pointer;
+    z-index: 10;
+}
+/*bg-six部分 end*/
+/*bg-seven部分 start*/
+.bg-seven{
+    width: 100%;
+    height: 800px;
+}
+.bg-seven h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 300;
+    color: #586066;
+    margin-top: 200px;
+}
+.bg-seven h1:nth-last-of-type(1){
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.bg-seven .bg-seven-div{
+text-align: center;
+}
+
+.bg-seven .bg-seven-slideshow p{
+    width: 656px;
+    text-align: center;
+    color: #586066;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bg-seven .bg-seven-slideshow{
+    position: relative;
+}
+.bg-seven-slideshow-img-center{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: absolute;
+    left: 45%;
+    top: 118px;
+}
+
+.bg-seven-slideshow-img-left{
+    position: absolute;
+    left: 5%;
+    top: 118px;
+    background-image: url("../img/ic_arrow_left.png");
+    width: 72px;
+    height: 72px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 500ms;
+}
+.bg-seven-slideshow-img-left:hover{
+    background-image: url("../img/ic_arrow_left_up.png");
+    width: 100px;
+    height: 100px;
+}
+.bg-seven-slideshow-img-right{
+    position: absolute;
+    right: 5%;
+    top: 118px;
+    background-image: url("../img/ic_arrow_right.png");
+    width: 72px;
+    height: 72px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 500ms;
+}
+.bg-seven-slideshow-img-right:hover{
+    background-image: url("../img/ic_arrow_right_up.png");
+    width: 100px;
+    height: 100px;
+}
+.bg-seven-slideshow strong{
+    position: absolute;
+    top: 238px;
+    left: 45%;
+    color: #586066;
+}
+/*bg-seven部分 end*/
+/*bg-footer部分 start*/
+.bg-footer{
+    width: 100%;
+    height: 600px;
+    background-color: #f8f8f8;
+    position: relative;
+}
+.bg-footer .bg-footer-div-buy{
+    background-color: #03b6ff;
+    width: 700px;
+    height: 90px;
+    border-radius: 20px;
+    position: absolute;
+    top: -40px;
+    left: 450px;
+    color: white;
+}
+.bg-footer .bg-footer-div-buy strong{
+    font-size: 50px;
+}
+.bg-footer .bg-footer-div-buy b:nth-child(1){
+    margin-left: 100px;
+}
+.bg-footer .bg-footer-div-buy span{
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    background-color: #f8f8f8;
+    color: #03b6ff;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 50px;
+    margin-left: 200px;
+}
+.bg-footer-nav{
+    width: 100%;
+    height: 500px;
+}
+.bg-footer-nav img{
+    width: 180px;
+    height: 40px;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+}
+.bg-footer-nav img:nth-child(2){
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 180px;
+    top: 300px;
+}
+.bg-footer-list{
+    position: absolute;
+    left: 650px;
+    top: 100px
+}
+.bg-footer-list ul{
+    float: left;
+    list-style: none;
+    margin-left: 80px;
+    font-size: 18px;
+    color: #586066;
+}
+.bg-footer-list li{
+    margin-bottom: 40px;
+}
+.bg-footer-list span{
+    display: block;
+}
+/*特殊的两个没有下间距的li*/
+.bg-footer-list .bg-footer-list-special{
+   margin-bottom: 10px;
+}
+.bg-footer-list span:nth-last-of-type(2){
+    margin-bottom: 30px;
+}
+.bg-footer-footer{
+    margin-left: 100px;
+    color: #586066;
+    font-size: 20px;
+}
+.bg-footer-footer span{
+    margin-right: 50px;
+}
+/*bg-footer部分 end*/
+

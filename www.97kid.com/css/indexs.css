@@ -1,0 +1,91 @@
+.bg-seven-slideshow-img-left{
+    display: none;
+}
+.bg-seven-slideshow-img-right{
+    display: none;
+}
+
+.all-main .bg-seven .bg-seven-slideshow{
+    height: 500px;
+    width: 100%;
+}
+.bg-seven-slideshow-clear{
+    width: 1100px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.bg-seven-slideshow-clear-active{
+    width: 6600px;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    transition: 1s;
+}
+.bg-seven-slideshow-list{
+    position: absolute;
+    width: 1100px;
+    height: 350px;
+    transition: 500ms;
+    overflow: hidden;
+    top: 30px;
+    text-align: center;
+}
+.bg-seven-slideshow-list:nth-of-type(1){
+    left: 0;
+}
+.bg-seven-slideshow-list:nth-of-type(2){
+    left: 1100px;
+}
+.bg-seven-slideshow-list:nth-of-type(3){
+    left: 2200px;
+}
+
+.bg-seven-slideshow-list:nth-of-type(4){
+    left: 3300px;
+}
+.bg-seven-slideshow-list:nth-of-type(5){
+    left: 4400px;
+}
+.bg-seven-slideshow-list:nth-of-type(6){
+    left: 5500px;
+}
+
+
+/*index私有的*/
+.bg-seven-slideshow-img-left-index{
+    position: absolute;
+    left: 5%;
+    top: 118px;
+    background-image: url("../img/ic_arrow_left.png");
+    width: 72px;
+    height: 72px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 500ms;
+}
+.bg-seven-slideshow-img-left-index:hover{
+    background-image: url("../img/ic_arrow_left_up.png");
+    width: 100px;
+    height: 100px;
+}
+.bg-seven-slideshow-img-right-index{
+    position: absolute;
+    right: 5%;
+    top: 118px;
+    background-image: url("../img/ic_arrow_right.png");
+    width: 72px;
+    height: 72px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: 500ms;
+}
+.bg-seven-slideshow-img-right-index:hover{
+    background-image: url("../img/ic_arrow_right_up.png");
+    width: 100px;
+    height: 100px;
+}
+
