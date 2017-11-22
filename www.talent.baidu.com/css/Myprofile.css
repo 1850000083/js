@@ -1,0 +1,111 @@
+.bg-email-rou-profile{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(72,240,255,0.6);
+    cursor: pointer;
+    animation: tousmation 2s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+    position: relative;
+    top: -10px;
+    left: 22px;
+}
+.bg-email-rou-profile-animate{
+    /*position: absolute;*/
+    animation: tousmations 2s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+}
+@keyframes tousmation {
+    0%{
+        transform: scale(3);
+        opacity: 1;
+    }
+    25%{
+        transform: scale(4);
+        opacity: 0.8;
+    }
+    50%{
+        transform: scale(5);
+        opacity: 0.5;
+    }
+    75%{
+        transform: scale(6);
+        opacity: 0.3;
+    }
+    100%{
+        transform: scale(7);
+        opacity: 0;
+    }
+}
+@keyframes tousmations {
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    25%{
+        transform: scale(2);
+        opacity: 0.8;
+    }
+    50%{
+        transform: scale(3);
+        opacity: 0.6;
+    }
+    75%{
+        transform: scale(3.5);
+        opacity: 0.4;
+    }
+    100%{
+        transform: scale(3.7);
+        opacity: 0.2;
+    }
+}
+.bg-email3{
+    top: 25%;
+}
+.bg-email4{
+    top: 50%;
+    left: 33%;
+}
+.bg-email5{
+    top: 15%;
+    left: 20%;
+}
+.bg-email6{
+    top: 90%;
+    left: 20%;
+}
+.bg-email7{
+    top: 50%;
+    left: 85%;
+}
+.bg-email-rou-profile2{
+    background-color: #FF00CC;
+}
+.bg-email-rou-profile3{
+    background-color: #FFFF00;
+}.bg-email-rou-profile4{
+    background-color: #CCCCFF;
+}.bg-email-rou-profile5{
+    background-color: #CC6600;
+}.bg-email-rou-profile6{
+    background-color: #33CC66;
+}
+
+ /*bg-num*/
+.bg-num{
+    left: 300px;
+}
+.bg-num-b{
+    font-size: 30px;
+    color: rgba(255,255,255,0.3);
+    text-decoration: none;
+}
+.bg-time{
+    left: 39%;
+    top: 60%;
+    color: rgba(255,255,255,0.8);
+    font-size: 30px;
+    width: 500px;
+}

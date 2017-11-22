@@ -1,0 +1,167 @@
+
+/*bg-circle定位位置*/
+.bg-index-tRight .bg-circle-tRight:nth-of-type(1){
+    left: 292px;
+    top: 230px;
+    width: 12px;
+    height: 12px;
+    background-color:rgb(255,222,0);
+    opacity: 0.8;
+}
+.bg-index-tRight .bg-circle-tRight:nth-of-type(2){
+    left: 437px;
+    top: 166px;
+}
+.bg-index-tRight .bg-circle-tRight:nth-of-type(3){
+    left: 208px;
+    top: 168px;
+}
+.bg-index-tRight .bg-circle-tRight:nth-of-type(4){
+    left: 265px;
+    top: 91px;
+}
+.bg-index-tRight .bg-circle-tRight:nth-of-type(5){
+    left: 384px;
+    top: 88px;
+}
+.bg-index-tRight .bg-circle-tRight:nth-of-type(6){
+    left: 281px;
+    top: 231px;
+}
+
+
+/*bg-canvas-div1直线移动方向*/
+.bg-canvas-div1 .bg-tRight-span:nth-of-type(1){
+    transform: rotate(11deg);
+}
+.bg-canvas-div1 .bg-tRight-span:nth-of-type(2){
+    transform: rotate(115deg);
+}
+.bg-canvas-div1 .bg-tRight-span:nth-of-type(3){
+    transform: rotate(166deg);
+}
+.bg-canvas-div1 .bg-tRight-span:nth-of-type(4){
+    transform: rotate(222.5deg);
+}
+.bg-canvas-div1 .bg-tRight-span:nth-of-type(5){
+    transform: rotate(249deg);
+}
+
+
+.bg-index-tRight .bg-tRight-span-one{
+    transform: rotate(56deg);
+}
+.bg-index-tRight .bg-tRight-span-tow{
+    transform: rotate(220deg);
+}
+.bg-index-tRight .bg-tRight-span-three{
+    transform: rotate(273deg);
+}
+.bg-index-tRight .bg-tRight-span-four{
+    transform: rotate(313deg);
+}
+
+
+/*bg-canvas-div1直线动画*/
+@keyframes tRight1 {
+    0%{
+        height: 10px;
+    }
+    50%{
+        height: 50px;
+    }
+    100%{
+        height: 58px;
+    }
+}
+@keyframes tRight2 {
+    0%{
+        height: 10px;
+    }
+    50%{
+        height: 50px;
+    }
+    100%{
+        height: 90px;
+    }
+}
+@keyframes tRight3 {
+    0%{
+        height: 10px;
+    }
+    50%{
+        height: 50px;
+    }
+    100%{
+        height: 110px;
+    }
+}
+@keyframes tRight4 {
+    0%{
+        height: 10px;
+    }
+    50%{
+        height: 50px;
+    }
+    100%{
+        height: 132px;
+    }
+}
+@keyframes tRight5 {
+    0%{
+        height: 10px;
+    }
+    50%{
+        height: 50px;
+    }
+    100%{
+        height: 155px;
+    }
+}
+
+/*.bg-circle-span动画*/
+@keyframes circletRight1 {
+    0%{
+        height: 10px;
+    }
+    50%{
+        height: 50px;
+    }
+    100%{
+        height: 190px;
+    }
+}
+@keyframes circletRight2 {
+    0%{
+        height: 10px;
+    }
+    50%{
+        height: 50px;
+    }
+    100%{
+        height: 82px;
+    }
+}
+@keyframes circletRight3 {
+    0%{
+        height: 10px;
+    }
+    50%{
+        height: 50px;
+    }
+    100%{
+        height: 113px;
+    }
+}
+@keyframes circletRight4 {
+    0%{
+        height: 10px;
+    }
+    50%{
+        height: 50px;
+    }
+    100%{
+        height: 73px;
+    }
+}
+

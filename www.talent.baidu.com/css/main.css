@@ -1,0 +1,472 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+body{
+    overflow-y: hidden;
+}
+header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 1000;
+}
+nav{
+    width: 1400px;
+    text-align: center;
+    height: 80px;
+    /*background-color: #cccccc;*/
+    box-shadow: 1px 0 1px 10px rgba(0,0,0,0.2);
+    margin: 0 auto;
+}
+nav a{
+    width: 200px;
+    height: 80px;
+    display: inline-block;
+    line-height: 80px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 500ms;
+}
+nav a:hover{
+    animation: nava 500ms;
+    animation-timing-function: linear;
+}
+@keyframes nava {
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.2);
+    }
+    50%{
+        transform: scale(1.5);
+    }
+    75%{
+        transform: scale(1.2);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+/*网页主体部分*/
+main{
+    width: 100%;
+    /*height: 666px;*/
+    background-image: url("../img/home-black-bg.jpg");
+    background-size: 100%;
+    background-repeat: round;
+    min-width: 1180px;
+    min-height: 666px;
+    height: 777px;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1180px) {
+    body {
+        width: 1180px;
+    }
+
+    main {
+        width: 1180px;
+    }
+}
+
+
+/*bg-img start*/
+.bg-img{
+    width: 100%;
+    min-width: 1180px;
+    min-height: 666px;
+    height: 777px;
+    overflow: hidden;
+    position: relative;
+}
+.main-img-c3{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: -80px;
+    left: 19%;
+    animation: ic_C3 240s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+.main-img-c3-s{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 141px;
+    left: 35%;
+    animation: ic_C3_s 180s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+    /*animation-direction: alternate;*/
+}
+
+@keyframes ic_C3{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(90deg);
+    }
+    50%{
+          transform: rotate(180deg);
+      }
+    75%{
+        transform: rotate(270deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+@keyframes ic_C3_s{
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(-90deg);
+    }
+    50%{
+        transform: rotate(-180deg);
+    }
+    75%{
+        transform: rotate(-270deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+
+.main-img-earth{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 35%;
+    top: 131px;
+    animation: ic_C3 240s;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+.main-img-bigtitle{
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    left: 39%;
+    top: 131px;
+}
+
+@media screen and (max-width: 1180px){
+    .main-img-c3-s,.main-img-earth{
+        left: 40%;
+    }
+    .main-img-bigtitle{
+        left: 44%;
+    }
+}
+/*bg-img end*/
+
+.bg-index{
+    width: 1200px;
+    min-width: 1000px;
+    min-height: 777px;
+    height: 777px;
+    overflow: hidden;
+    margin: 0 auto;
+    z-index: 10;
+    transition: 2s;
+}
+
+.bg-index-topLeft{
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+
+
+.bg-index-tRight{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 600px;
+    top: -300px;
+
+}
+.bg-index-bLeft{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: -300px;
+}
+.bg-index-bRight{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    top: -630px;
+    left: 600px;
+}
+
+
+
+.bg-circle{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    opacity: 0.3;
+    border-radius: 50%;
+    top: 100px;
+    left: 200px;
+    z-index: 11;
+}
+
+.bg-circle-tRight{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    opacity: 0.3;
+    border-radius: 50%;
+    top: 100px;
+    left: 200px;
+    z-index: 11;
+}
+.bg-circle-bLeft,.bg-circle-bRight{
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    opacity: 0.3;
+    border-radius: 50%;
+    top: 100px;
+    left: 200px;
+    z-index: 11;
+}
+
+span{
+    display: inline-block;
+    /*width: 100px;*/
+    width: 1px;
+    height: 0px;
+    background-image: url("../img/star-ignore.png");
+    background-repeat: round;
+    background-size: 100%;
+    -webkit-transition: 2s;
+    -moz-transition: 2s;
+    -ms-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+    transform-origin :100% 0 0 ;
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    z-index: 10;
+    animation-duration: 500ms;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+
+
+
+
+
+
+.bg-right-a{
+    width: 100px;
+    height: 10px;
+    font-size: 10px;
+    color: white;
+    /*text-shadow: 0 0 1px #fff ;*/
+    position: absolute;
+    text-decoration: none;
+    left: 15px;
+    top: -5px;
+}
+.bg-right-a2{
+    left: 70px;
+}
+.bg-left-a{
+    width: 80px;
+    height: 10px;
+    font-size: 10px;
+    color: white;
+    /*text-shadow: 0 0 1px #fff ;*/
+    position: absolute;
+    text-decoration: none;
+    left: -90px;
+    top: -5px;
+    text-align: right;
+}
+.main .bg-img .bg-index h1{
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 35%;
+    font-size: 60px;
+}
+.bg-email{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    color: white;
+}
+.bg-email2{
+    top: 75%;
+    left: 60%;
+}
+
+.bg-email a{
+    height: 20px;
+    width: 300px;
+    opacity: 0.8;
+}
+.bg-email-rou{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(72,240,255,0.6);
+    cursor: pointer;
+    animation: tousmation 2s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+    position: relative;
+}
+.main .bg-img .bg-email .bg-email-rou-animation{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: tousmations 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+}
+.main .bg-img .bg-email .bg-email-rou-animation2{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    animation: tousmations2 1s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+}
+
+@keyframes tousmation {
+    0%{
+        transform: scale(4);
+        opacity: 1;
+    }
+    25%{
+        transform: scale(6);
+        opacity: 0.8;
+    }
+    50%{
+        transform: scale(8);
+        opacity: 0.5;
+    }
+    75%{
+        transform: scale(10);
+        opacity: 0.3;
+    }
+    100%{
+        transform: scale(12);
+        opacity: 0;
+    }
+}
+@keyframes tousmations {
+    0%{
+        transform: scale(4);
+        opacity: 1;
+    }
+    25%{
+        transform: scale(5);
+        opacity: 0.8;
+    }
+    50%{
+        transform: scale(6);
+        opacity: 0.6;
+    }
+    75%{
+        transform: scale(7);
+        opacity: 0.4;
+    }
+    100%{
+        transform: scale(8);
+        opacity: 0.2;
+    }
+}
+@keyframes tousmations2 {
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    25%{
+        transform: scale(2);
+        opacity: 0.8;
+    }
+    50%{
+        transform: scale(3);
+        opacity: 0.6;
+    }
+    75%{
+        transform: scale(4);
+        opacity: 0.4;
+    }
+    100%{
+        transform: scale(5);
+        opacity: 0.2;
+    }
+}
+.keepout{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #000;
+    z-index: 999999;
+    /*display: none;*/
+    animation: keepanimate 6s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+
+}
+
+.keepout h1{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 500px;
+
+}
+@keyframes keepanimate {
+  0%{
+      background: #33b9cc;
+      opacity: 1;
+  }
+    20%{
+        background: #26cc23;
+        opacity: 0.8;
+    }
+    40%{
+        background: #ccca46;
+        opacity: 0.6;
+    }
+    60%{
+        background: #cc94ca;
+        opacity: 0.4;
+    }
+    80%{
+        background: #916ecc;
+        opacity: 0.2;
+    }
+    100%{
+        background: #699fcc;
+        opacity: 0;
+        /*display: none;*/
+    }
+}
