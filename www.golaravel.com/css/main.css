@@ -1,0 +1,233 @@
+header{
+    height: 280px;
+    background-image: url("../img/bg.jpg");
+    color: white;
+
+}
+header div{
+height: 100px;
+    /*line-height: 100px;*/
+}
+header div:nth-of-type(3){
+    height: 80px;
+}
+header div h1{
+    font-size: 40px;
+}
+header div  a{
+    color: white;
+    font-size: 17px;
+    /*padding: 8px 12px;*/
+    width: 130px;
+    line-height: 40px;
+    display: inline-block;
+    border: solid 1px red;
+    height: 40px;
+    transition: 500ms;
+}
+header div  a:hover{
+    text-decoration: none;
+    background-color: #0f0f0f;
+    color: white;
+}
+
+/*header ====end*/
+nav{
+    background-color: #fff;
+    height:auto;
+}
+nav a{
+    width: auto;
+    height: 80px;
+    line-height: 80px;
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 20px;
+    color: #3c3c3c;
+}
+nav a:hover{
+    color: #f4645f;
+    text-decoration: none;
+}
+main{
+    background-color: #f5f5f5;
+    height: auto;
+}
+main div{
+    height: auto;
+}
+
+.main-side-community{
+    margin: 50px 0 30px 0;
+    height: 160px;
+    background-color: white;
+}
+.main-side-community-h1{
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: #3c3c3c;
+    margin: 0;
+}
+.main-side-community-img{
+    height: 15px;
+    top: 15px;
+}
+.main-side-community-p{
+    height: 50px;
+    line-height: 50px;
+    left: -30px;
+    color: #f4645f;
+}
+.main-side-community-p:hover{
+    color: #f4645f;
+}
+.main-side-span:nth-of-type(1){
+    background-color: red;
+    margin-left: 15px;
+}
+.main-side-span{
+    height: 1px;
+    background-color: #cccccc;
+    margin-bottom: 20px;
+}
+.main-side-download{
+    height: 120px;
+    background-color: white;
+    margin: 0 0 30px 0;
+}
+.main-side-a{
+    background-color:#f4645f ;
+    padding: 10px 20px;
+    color: white;
+    margin-left: 15px;
+    transition: 500ms;
+    margin-bottom: 5px;
+}
+.main-side-a:hover{
+    text-decoration: none;
+    background-color: #0f0f0f;
+    color: white;
+}
+.main-side-document{
+    height: 530px;
+    background-color: white;
+    margin: 0 0 30px 0;
+}
+
+/*col-9-container部分*/
+.main-cantainer{
+    margin: 50px 50px 50px 130px;
+    height: auto;
+    background-color: white;
+}
+.main-cantainer-img{
+    margin-bottom: 40px;
+}
+.main-cantainers{
+    margin: 0 20px 50px 130px;
+    height: auto;
+    background-color: white;
+}
+.main-cantainer-h2{
+    margin: 40px 0  20px 0;
+}
+.main-cantainer-strong{
+    color: #cccccc;
+    margin-bottom: 20px;
+}
+.main-cantainer-strong b{
+    color: #f4645f;
+}
+.main-cantainer-p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.main-cantainer-a{
+    background-color:#f4645f ;
+    padding: 10px 0;
+    color: white;
+    margin-left: 15px;
+    transition: 500ms;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.main-cantainer-a:hover{
+    text-decoration: none;
+    background-color: #0f0f0f;
+    color: white;
+}
+.main-cantainer-cut{
+    height: 1px;
+    background-color: #f2dede;
+    margin-left: 3.5%;
+    margin-bottom: 50px
+}
+/*container-col-9 end*/
+/*footer */
+footer{
+    height: auto;
+}
+footer>section{
+    height: auto;
+    background-color: #202020;
+}
+.footer-left-h3{
+    color: #f8f8f8;
+}
+.footer-left-span{
+    height: 2px;
+    display: inline-block;
+    background-color: #303030;
+    margin-bottom: 10px;
+}
+.footer-left-span:nth-of-type(1){
+    background-color: #f4645f;
+    /*margin-left: 15px;*/
+}
+.footer-left-div{
+    padding: 20px 0;
+    border-bottom: dashed 1px #303030;
+}
+.footer-left-div p{
+    color: #8c8c8c;
+}
+.footer-section{
+    padding-top: 30px;
+}
+.footer-center-a{
+    border: solid 1px #303030;
+    margin-left: 15px;
+    font-size: 16px;
+    height: 20px;
+    line-height: 15px;
+    color: #8c8c8c;
+}
+.footer-center{
+    margin-left: 80px;
+}
+.footer-center-a:hover{
+    color: white;
+    text-decoration: none;
+    background-color:#f4645f ;
+}
+.footer-right{
+    margin-left: 50px;
+}
+.footer-right-a{
+    color: #8c8c8c;
+    padding: 5px 10px;
+}
+.footer-right-a:hover{
+    color: white;
+    text-decoration: none;
+    background-color:#f4645f ;
+}
+.footer-records{
+    height: 100px;
+    background-color: #0f0f0f;
+}
+.footer-records p{
+    line-height: 100px;
+}
+/*footer end*/
