@@ -209,7 +209,9 @@ main{
     top: -630px;
     left: 600px;
 }
-
+.bg-canvas-div1 a{
+    font-size: 16px;
+}
 
 
 .bg-circle{

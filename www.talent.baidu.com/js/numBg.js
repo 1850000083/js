@@ -29,5 +29,3 @@ console.log(
 // time.getMonth()+1,月
 //     time.getSeconds()秒
 );
-let times = `${time.getFullYear()}年${time.getMonth()+1}月${time.getDate()}号${time.getHours()}:${time.getMinutes()}:${time.getSeconds()}`;
-let numTime = document.querySelector(".bg-num-time").innerHTML = times;
