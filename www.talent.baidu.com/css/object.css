@@ -1,10 +1,11 @@
 .bg-obj{
     left: 5%;
-    top: 10%;
+    top: 50%;
     width: 400px;
     height: 600px;
     /*background-color: #00b3ee;*/
     overflow: hidden;
+    margin-top: -300px;
 }
 .bg-obj2{
     left: 37%;
@@ -12,12 +13,19 @@
 .bg-obj3{
     left: 69%;
 }
+
 .bg-obj a{
     display: block;
     text-align: center;
-    margin-bottom: 10px;
-    color: white;
+    margin-bottom: 10%;
+    /*color: white;*/
     text-decoration: none;
+    color: #699fcc;
+    color: #fff;
+
+}
+.bg-obj a:nth-of-type(2){
+    color: #fff;
 }
 .bg-obj a:hover{
 animation: objanimate 300ms;
@@ -77,10 +85,28 @@ animation: objanimate 300ms;
         opacity: 1;
     }
 }
+
 .bg-obj-p{
     text-align: center;
     width: 300px;
     height: 300px;
-    margin: 0 50px ;
+    margin: 30% 50px ;
     font-size: 20px;
+    color: #699fcc;
 }
+.bg-obj-p b{
+    margin-bottom: 6%;
+    display: block;
+    text-shadow: 0 0 2px 5px #cbcca9;
+}
+.bg-obj-p b:hover{
+    text-shadow: 0 0 2px 5px #cbcca9;
+}
+
+.bg-obj2 .bg-obj-p b{
+    /*color: #37f814;*/
+}
+/*.bg-obj-p span{*/
+    /*width: 300px;*/
+    /*height: 300px;*/
+/*}*/

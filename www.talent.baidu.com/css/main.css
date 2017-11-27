@@ -1,6 +1,7 @@
 *{
     margin: 0 ;
     padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 body{
     overflow-y: hidden;
@@ -438,12 +439,16 @@ span{
 
 }
 
-.keepout h1{
-    color: white;
+ .keepout h1{
     font-size: 50px;
     text-align: center;
     margin-top: 500px;
+     text-shadow: 2px 2px 2px 5px #33fff7;
 
+}
+.main .bg-img .bg-index h1{
+    color: #699fcc;
+    text-shadow: 2px 2px 2px 5px #33fff7;
 }
 @keyframes keepanimate {
   0%{
